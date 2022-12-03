@@ -1,0 +1,297 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.32",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                1
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Circle",
+            "scale" : [
+                1.66347074508667,
+                1.66347074508667,
+                1.66347074508667
+            ]
+        },
+        {
+            "children" : [
+                0
+            ],
+            "mesh" : 1,
+            "name" : "Sphere",
+            "rotation" : [
+                0,
+                0,
+                0.013089597225189209,
+                0.9999143481254578
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material.001",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Material",
+            "normalTexture" : {
+                "index" : 2
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 3
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Circle",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Sphere",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 5,
+                        "NORMAL" : 6,
+                        "TANGENT" : 7,
+                        "TEXCOORD_0" : 8
+                    },
+                    "indices" : 9,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        },
+        {
+            "sampler" : 0,
+            "source" : 3
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "saturn_ring_normal",
+            "uri" : "saturn_ring_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "saturn_ring",
+            "uri" : "saturn_ring.png"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "2k_saturnnormal",
+            "uri" : "2k_saturnnormal.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "2k_saturn",
+            "uri" : "2k_saturn.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 50760,
+            "max" : [
+                1.402722954750061,
+                0,
+                1.402722954750061
+            ],
+            "min" : [
+                -1.402722954750061,
+                0,
+                -1.402722954750061
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 50760,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 50760,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 50760,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5123,
+            "count" : 196608,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 507904,
+            "max" : [
+                0.9838643074035645,
+                0.9956571459770203,
+                0.9838638305664062
+            ],
+            "min" : [
+                -0.9838637113571167,
+                -0.9956571459770203,
+                -0.9838643074035645
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 507904,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 507904,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 507904,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5125,
+            "count" : 761856,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 609120,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 609120,
+            "byteOffset" : 609120,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 812160,
+            "byteOffset" : 1218240,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 406080,
+            "byteOffset" : 2030400,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 393216,
+            "byteOffset" : 2436480,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6094848,
+            "byteOffset" : 2829696,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6094848,
+            "byteOffset" : 8924544,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 8126464,
+            "byteOffset" : 15019392,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4063232,
+            "byteOffset" : 23145856,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3047424,
+            "byteOffset" : 27209088,
+            "target" : 34963
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 30256512,
+            "uri" : "saturn_high.bin"
+        }
+    ]
+}

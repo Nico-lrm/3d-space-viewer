@@ -7,6 +7,7 @@ La majorité des éléments présents dans cette application ont été apprises 
 - Shadow Mapping
 - HDR & Bloom
 - Système de gravité entre les éléments de la scène
+- Dessin des orbites des éléments
 
 ## Dependance
 - GLFW : https://www.glfw.org/

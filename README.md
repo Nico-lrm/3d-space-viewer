@@ -2,14 +2,14 @@
 Application 3D, faites en C++ avec l'API OpenGL, dédiée à apprendre le fonctionnement d'un système de rendu 3D.
 La majorité des éléments présents dans cette application ont été apprises grâce au site https://learnopengl.com/
 
-## Fonctionnalites
+## Fonctionnalités
 - Chargement de modèles 3D
 - Shadow Mapping
 - HDR & Bloom
 - Système de gravité entre les éléments de la scène
 - Dessin des orbites des éléments
 
-## Dependance
+## Dépendances
 - GLFW : https://www.glfw.org/
 - GLEW : https://glew.sourceforge.net/
 - GLM : https://github.com/g-truc/glm
@@ -19,7 +19,7 @@ La majorité des éléments présents dans cette application ont été apprises 
 ## Ressources 
 - Textures : https://www.solarsystemscope.com/textures/
 
-## Screenshot du programme
+## Screenshot
 - Saturne vers le Soleil
 ![](https://github.com/Nico-lrm/3d-space-viewer/blob/main/Ressources/photos/example_saturn_to_sun.png)
 

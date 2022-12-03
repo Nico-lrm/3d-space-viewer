@@ -29,7 +29,3 @@ La majorité des éléments présents dans cette application ont été apprises 
 
 - Mercure 
 ![](https://github.com/Nico-lrm/3d-space-viewer/blob/main/Ressources/photos/mercury.png)
-
-
-- Vu depuis la ceinture de Kuiper
-![](https://github.com/Nico-lrm/3d-space-viewer/blob/main/Ressources/photos/view_kuiper_ring.png)
